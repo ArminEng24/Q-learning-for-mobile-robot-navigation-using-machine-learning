@@ -1,7 +1,17 @@
 # Q-learning-for-mobile-robot-navigation-using-machine-learning
 
-## Introduction
+## Description
 This project implements Q-learning for mobile robot navigation in a grid environment. The goal is to explore the effects of different hyperparameters and reward structures on the learning performance of the agent.
+
+## Table of Contents  
+- [Files](#files)  
+- [Experiments](#experiments)
+  - [Modifying-the-Maze](#modifying-the-maze)
+  - [Changing-Agent-Learning-Parameters](#changing-agent-learning-parameters)
+  - [Changing-Reward-and-Testing-Learning-Performance](#changing-reward-and-testing-learning-performance)
+- [Results](#results)
+- [Usage](#usage)
+- [Acknowledgments](#acknowledgments)
 
 ## Files
 - `grid_env.py`: defines the grid environment class
@@ -12,16 +22,16 @@ This project implements Q-learning for mobile robot navigation in a grid environ
 ## Experiments
 The project includes three main experiments:
 
-### Task 3.A: Modifying the Maze
+### Modifying-the-Maze
 - Modify the maze size, shape, and start position
 - Train and test the agent with different maze configurations
 
-### Task 3.B: Changing Agent Learning Parameters
+### Changing-Agent-Learning-Parameters
 
 - Modify the agent's learning rate, discount factor, and exploration parameters
 - Train and test the agent with different learning parameters
 
-### Task 3.C: Changing Reward and Testing Learning Performance
+### Changing-Reward-and-Testing-Learning-Performance
 
 - Modify the reward structure to include a "hole" in the maze
 - Train and test the agent with the modified reward structure
